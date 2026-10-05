@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "io.github.s3pp3ku.runner",
-  "name": "Omarchy Runner",
+  "id": "io.github.s3pp3ku.tinyterminal",
+  "name": "TinyTerminal",
   "version": "1.0.0",
   "author": "s3pp3ku",
   "license": "MIT",
-  "description": "A tiny one-line floating Foot terminal for quick pasted commands.",
+  "description": "A one-line floating Foot terminal for quick pasted commands.",
   "kinds": ["bar-widget"],
   "entryPoints": {
-    "barWidget": "Runner.qml"
+    "barWidget": "TinyTerminal.qml"
   },
   "barWidget": {
-    "displayName": "Runner",
+    "displayName": "TinyTerminal",
     "description": "Open the one-line command terminal",
     "category": "Utilities",
     "allowMultiple": false

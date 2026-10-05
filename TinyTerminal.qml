@@ -3,7 +3,7 @@ import qs.Ui
 
 BarWidget {
   id: root
-  moduleName: "io.github.s3pp3ku.runner"
+  moduleName: "io.github.s3pp3ku.tinyterminal"
 
   implicitWidth: button.implicitWidth
   implicitHeight: button.implicitHeight
@@ -16,7 +16,7 @@ BarWidget {
     labelVisible: true
     onPressed: function(mouseButton) {
       if (mouseButton === Qt.LeftButton && root.bar)
-        root.bar.run("omarchy-runner")
+        root.bar.run("tinyterminal")
     }
   }
 }

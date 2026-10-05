@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Name=Runner
+Name=TinyTerminal
 Comment=Open the compact floating Omarchy command terminal
-Exec=@RUNNER_EXEC@
+Exec=@TINYTERMINAL_EXEC@
 Icon=utilities-terminal
 Terminal=false
 Categories=System;TerminalEmulator;
-StartupWMClass=org.omarchy.runner
+StartupWMClass=org.omarchy.tinyterminal
