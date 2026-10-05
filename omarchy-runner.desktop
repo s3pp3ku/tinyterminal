@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Runner
+Comment=Open the compact floating Omarchy command terminal
+Exec=@RUNNER_EXEC@
+Icon=utilities-terminal
+Terminal=false
+Categories=System;TerminalEmulator;
+StartupWMClass=org.omarchy.runner

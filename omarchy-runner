@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export PROMPT='Omarchy%% '
+exec foot --app-id=org.omarchy.runner --window-size-chars=60x1 zsh -f

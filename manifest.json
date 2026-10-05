@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.s3pp3ku.runner",
+  "name": "Omarchy Runner",
+  "version": "1.0.0",
+  "author": "s3pp3ku",
+  "license": "MIT",
+  "description": "A tiny one-line floating Foot terminal for quick pasted commands.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Runner.qml"
+  },
+  "barWidget": {
+    "displayName": "Runner",
+    "description": "Open the one-line command terminal",
+    "category": "Utilities",
+    "allowMultiple": false
+  }
+}
