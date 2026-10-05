@@ -35,9 +35,11 @@ hl.window_rule({
 Add these bindings to `~/.config/hypr/bindings.lua`:
 
 ```lua
+hl.unbind("SUPER + SHIFT + RETURN") -- Omarchy binds this to Browser by default.
 o.bind("SUPER + SHIFT + RETURN", "Quick command terminal", {
   launch = "tinyterminal"
 })
+o.bind("SUPER + SHIFT + I", "Browser", { omarchy = "browser" })
 o.bind("CTRL + SHIFT + DOWN", "Focus TinyTerminal",
   hl.dsp.focus({ window = "class:org.omarchy.tinyterminal" }))
 o.bind("CTRL + SHIFT + UP", "Return to main tiled windows", function()
@@ -58,6 +60,11 @@ hyprctl configerrors
 ```
 
 You can launch TinyTerminal from `Super+Space` by typing **TinyTerminal**. To use the shorter `runner` command in Zsh, add `alias runner='tinyterminal >/dev/null 2>&1 &!'` to `~/.zshrc` and open a new shell.
+
+### This machine's shortcuts
+
+- `Super+Shift+Enter`: open TinyTerminal. This replaces Omarchy's default Browser shortcut.
+- `Super+Shift+I`: open the default Internet browser.
 
 ## Optional Omarchy bar button
 
